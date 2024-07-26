@@ -1,0 +1,31 @@
+body{
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.calculator{
+    width: 350px;
+    height: 350px ;
+    margin-top: 100px ;
+    background-color: black;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.screen{
+    width: 100%;
+    font-size: 3rem;
+    padding: 0px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 12px 12px rgba(0, 0, 0, 9);
+}
+
+.btnDiv{
+    width: 100;
+}
