@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
 .operator,.clearBtn, .numBtn{
@@ -50,8 +50,10 @@ body{
     border-radius: 10px;
     font-weight: 700;
     background-color: #28f8ff;
+    padding-top: 15px;
 }
 .operator{
+    padding-top: 15px;
     background-color: #40ff4a;
 }
 
