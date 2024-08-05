@@ -1,62 +1,120 @@
 * {
-    background: #f7bcf9;
+    background: #d0a4f5;
     font-family: 'Times New Roman', Times, serif;
 }
 
-header h1 {
+.allHeader{
     display: flex;
     justify-content: center;
-    font-size: 50px;
-    font-weight: 900;
-    color: #ffffff;
-
+    align-items: center;
 }
 
-.add , .display{
+.icon img{
+height: 55px;
+width: 55px;
+padding-right: 10px;
+}
+
+.add {
     display: flex;
     justify-content: center;
     text-align: center;
     background-color: #fffefe;
     padding: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     border-radius: 20px;
     box-shadow: 10px 10px 12px #FFC6C6;
+
 }
 
-.btnAdd , .textfield{
-    padding: 15px;
+.display {
     background-color: #fffefe;
-    
-}
-
-.btnAdd .addTask{
-    width: 40px;
-    height: 35px;
-    border-radius: 15px;
-    background-color: #FFC6C6;
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 12px #FFC6C6;
 
 }
 
-.textfield .screen{
-    width: 330px;
-    height: 30px;
+.btnAdd {
+    padding: 26px;
+    background-color: #fffefe;
+    width: 55px;
+}
+
+.textfield {
+    padding: 26px;
+    background-color: #fffefe;
+    width: 100%;
+}
+
+.btnAdd .addTask {
+
+    border-radius: 30px;
+    background-color: #FFEBD4;
+    font-weight: 1000;
+    font-size: 26px;
+
+}
+
+.textfield .screen {
+    padding: 10px;
     background-color: #FFEBD4;
     border-radius: 15px;
-    outline-color: #FFEBD4; 
-
+    outline-color: #FFEBD4;
+    width: 100%;
 }
 
-.display{
+.display {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-a{
+a {
     display: flex;
     justify-content: center;
-    color: blue;
+    color: rgb(84, 84, 201);
     cursor: pointer;
 }
 
+.addTask {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+/* Idhar se javaScript shuru */
+
+
+.divStore{
+background-color: #dd6bf4;
+display: flex;
+justify-content: flex-start;
+padding: 10px;
+border-radius: 19px;
+margin: 12px;
+}
+
+.taskDelDiv{
+    width: 100%;
+
+}
+
+.detailLabel{
+background-color: #dd6bf4;
+
+}
+.taskDelDiv , .editButtonDiv , .delButtonDiv{
+padding: 10px;
+background-color: #dd6bf4;
+}
+
+.showTask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px; 
+    background-color: #fff;
+}
