@@ -9,7 +9,7 @@ function addToList() {
     divStore.className = "divStore";
     showTaskDiv.appendChild(divStore);
     
-    
+
     
     // inside DivStore div
     let taskDelDiv = document.createElement("div");
