@@ -14,6 +14,7 @@ function App() {
 
         <div className="headerDiv">
           <Header />
+
         </div>
 
         <div className="cardsDiv">
@@ -23,13 +24,16 @@ function App() {
           <Cards name={"M. Shumail"} friendImg={"../../src/assets/shumail.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
           <Cards name={"Nameer Iqbal"} friendImg={"../../src/assets/nameer.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
 
+        <div className="selectBox">
+          <SelectBox />
         </div>
 
-        
-          
+        </div>
+
+
         <div className="footerDiv">
           <Footer />
-         
+
         </div>
 
 

@@ -1,10 +1,29 @@
-/* .selectBox{
-    color: black;
-    height: 100vh;
-    width: 100%;
-}
 
-button{
-    width:40px;
-    height: auto;
-} */
+  
+  .SelectBox {
+    display: flex;
+    justify-content: center;
+    padding: none;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #012040;
+    width: 250px;
+    background-color: #60a4e8;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+Select:focus {
+    outline: none;
+    /* border-color: #6babf0; */
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  select {
+    margin: 15px;
+    font-size: 20px;
+    color: #007bff;
+    text-align: center;
+  }
+  
