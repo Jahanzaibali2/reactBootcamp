@@ -1,0 +1,30 @@
+.mainHeaderDiv {
+    background-color: rgb(158, 165, 237);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.navDiv ul {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+.navDiv li {
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.iconDiv img {
+    padding-left: 30px;
+    width: 120px;
+    height: auto;
+}

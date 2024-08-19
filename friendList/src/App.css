@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+
+.fatherDiv {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerDiv {
+    background-color: black;
+    flex-basis: 150px;
+}
+
+.cardsDiv {
+    background-color: #b3dcfa;
+    flex-basis: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

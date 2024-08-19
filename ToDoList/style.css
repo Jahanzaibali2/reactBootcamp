@@ -142,3 +142,15 @@ a {
 
     
 }
+
+.editIcon , .deleteIcon{
+    height: 25px;
+    width: 25px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: #FFEBD4;
+}
+
+.delButton , .editButton{
+    background-color: #FFEBD4;
+}
