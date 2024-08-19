@@ -1,5 +1,5 @@
 .mainHeaderDiv {
-    background-color: rgb(158, 165, 237);
+    background-color: #48a8ed;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     cursor: pointer;
     font-size: larger;
+    font-weight: 700;
 
 }
 
@@ -24,7 +25,7 @@
 }
 
 .iconDiv img {
-    padding-left: 30px;
+    padding-left: 50px;
     width: 120px;
     height: auto;
 }

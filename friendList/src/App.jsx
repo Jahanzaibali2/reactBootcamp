@@ -18,9 +18,10 @@ function App() {
 
         <div className="cardsDiv">
 
-          <Cards name={"Zhumail"} friendImg={"../../src/assets/react.svg"} description={"anfsdjfnjadfgldngladfngjdfngkfndgl"} />
-          <Cards name={"Zazzy"} friendImg={"../../src/assets/react.svg"} description={"anfsdjfnjadfgldngladfngjdfngkfndgl"} />
-          <Cards name={"Zamzam"} friendImg={"../../src/assets/react.svg"} description={"anfsdjfnjadfgldngladfngjdfngkfndgl"} />
+          <Cards name={"Rayyan Sajid"} friendImg={"../../src/assets/rayyan.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
+          <Cards name={"Jahanzaib Ali"} friendImg={"../../src/assets/jzb.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
+          <Cards name={"M. Shumail"} friendImg={"../../src/assets/shumail.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
+          <Cards name={"Nameer Iqbal"} friendImg={"../../src/assets/nameer.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
 
         </div>
 
@@ -28,6 +29,7 @@ function App() {
           
         <div className="footerDiv">
           <Footer />
+         
         </div>
 
 

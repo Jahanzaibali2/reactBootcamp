@@ -10,7 +10,7 @@
 }
 
 .friendCard {
-    background-color: rgb(93, 113, 170);
+    background-color: #45a1e3;
     height: 450px;
     width: 300px;
     border-radius: 20px;
@@ -35,4 +35,8 @@
   transform: scale(1.05);
   transition: all 0.3s ease ;
 
+}
+.friendCard p{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

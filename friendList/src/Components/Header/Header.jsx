@@ -20,7 +20,7 @@ function Top() {
 
                 </div>
 
-                <h1>Assignment 3</h1>
+                <h1>Jahanzaib's Friend List</h1>
 
                 <div className="navDiv">
                     <ul>
@@ -28,7 +28,7 @@ function Top() {
                         <li>Home</li>
                         <li>Contact</li>
                         <li>E-Mail</li>
-                        <li>Details</li>
+                        {/* <li>Details</li>     */}
                     </ul>
 
                 </div>
