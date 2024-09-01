@@ -1,5 +1,5 @@
 * {
-    background: #F0A8D0;
+    background: #a8c6f0;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -9,16 +9,16 @@
     align-items: center;
 }
 
-.text, .footerContent {
+.allHeader, .footerContent {
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     color: #ffffff;
 }
 
-.icon img {
+.allHeader img {
     height: 55px;
     width: 55px;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .add {
@@ -109,7 +109,7 @@ a {
     padding: 10px;
     border-radius: 19px;
     margin: 12px;
-    box-shadow: 10px 10px 20px #F0A8D0;
+    box-shadow: 10px 10px 20px #000000;
     
 }
 

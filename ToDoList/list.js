@@ -39,8 +39,8 @@ function addToList() {
         var newValue = prompt("Edit new text");
         detailLabel.textContent = newValue;
     }
-    editButtonDiv.appendChild(editButton);
 
+    editButtonDiv.appendChild(editButton);
 
 
     // delete 
@@ -67,7 +67,7 @@ function addToList() {
     //inside task detail div
     let detailLabel = document.createElement("label");
     detailLabel.className = "detailLabel";
-    detailLabel.textContent =  taskCount +" -    " + inpScreen.value;
+    detailLabel.textContent =  taskCount +" - " + inpScreen.value;
     taskDelDiv.appendChild(detailLabel);
 
     inpScreen.value = "";
