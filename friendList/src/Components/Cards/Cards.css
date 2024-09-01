@@ -1,6 +1,6 @@
 .friendList {
     /* background-color: #fff; */
-    height: 90%;
+    height: auto;
     width: auto;
     display: flex;
     justify-content: space-evenly;
@@ -25,18 +25,22 @@
     border: 3px solid;
 }
 
-.friendCard p,h1,img {
-    padding: 3px;
+.friendCard p,
+h1,
+img {
+    margin: 3px;
 
 }
 
-.friendCard:hover{
+.friendCard:hover {
     background-color: rgb(72, 99, 175);
-  transform: scale(1.05);
-  transition: all 0.3s ease ;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
 
 }
-.friendCard p{
+
+.friendCard p {
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

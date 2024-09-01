@@ -23,10 +23,11 @@ function App() {
           <Cards name={"Jahanzaib Ali"} friendImg={"../../src/assets/jzb.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
           <Cards name={"M. Shumail"} friendImg={"../../src/assets/shumail.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
           <Cards name={"Nameer Iqbal"} friendImg={"../../src/assets/nameer.jpg"} description={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur officiis eaque laudantium deleniti numquam."} />
+          {/* <Cards name={"ibad ur Rehman"} friendImg={"../../src/assets/react.svg"} description={"Picture nhi mili :("} /> */}
 
         <div className="selectBox">
-          <SelectBox />
-        </div>
+            <SelectBox />
+          </div>
 
         </div>
 
